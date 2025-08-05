@@ -1,0 +1,253 @@
+
+---
+
+### **1. Basic SELECT Queries (20 Questions)**
+
+1. List all customers.
+2. Show first and last names of all actors.
+3. Display all films with their rental rates.
+4. Find all active customers.
+5. Show the email addresses of all customers.
+6. List all films with a rating of ‘PG’.
+7. Find all categories.
+8. Show the names of all staff members.
+9. Display all stores.
+10. Find all films longer than 100 minutes.
+11. Display all rentals made on ‘2005-05-24’.
+12. List all distinct rental durations from films.
+13. Show all films that have a replacement cost greater than 20.
+14. Display first 10 rows from the film table.
+15. List all customers whose last name starts with ‘S’.
+16. Show all films released after 2005.
+17. List all cities in the ‘USA’.
+18. Find all addresses without a postal code.
+19. Show all categories sorted alphabetically.
+20. Display all staff usernames.
+
+---
+
+### **2. Filtering & WHERE Conditions (20 Questions)**
+
+21. Find customers from the city ‘London’.
+22. List films with rental rates between 2 and 5.
+23. Find all films with the title containing ‘Love’.
+24. Show all rentals where the return date is NULL.
+25. Find all payments greater than 5.
+26. List all customers created in 2006.
+27. Show all addresses in district ‘Texas’.
+28. List all staff members with active = true.
+29. Show all films with special features including ‘Deleted Scenes’.
+30. Display all categories except ‘Horror’.
+31. List all customers whose first name has 4 letters.
+32. Find all films with rating in (‘PG’, ‘R’).
+33. Show all customers whose last name ends with ‘son’.
+34. Display all payments made on weekends.
+35. List all rentals that occurred in the month of May.
+36. Show all films not rented yet.
+37. Find customers who do not have an email.
+38. List all inventory items in store 1.
+39. Display all cities not in the USA.
+40. Show all films released in or after 2004 but before 2007.
+
+---
+
+### **3. Sorting & Limiting (10 Questions)**
+
+41. Show the top 10 most expensive films.
+42. List the 5 earliest rentals.
+43. Display the 10 latest payment transactions.
+44. List customers sorted by last name in descending order.
+45. Show 20 films with the shortest length.
+46. Display top 10 customers by first name alphabetically.
+47. Show the 5 most recent added cities.
+48. Display the highest rental\_rate films first.
+49. Show the oldest 3 staff members by create\_date.
+50. List 15 random films.
+
+---
+
+### **4. Joins (30 Questions)**
+
+51. Show films and their language names.
+52. List customers with their city names.
+53. Show rentals with the corresponding film title.
+54. Display all rentals with customer names and staff names.
+55. List all films with their category name.
+56. Show the category for each film.
+57. Display the address of each store.
+58. List all rentals including film title and rental date.
+59. Find all payments with corresponding rental date.
+60. Show all rentals with customer and store names.
+61. List all inventory items with their film title and store.
+62. Display all customers with their store manager names.
+63. Show all actors with the films they acted in.
+64. List all payments with customer and staff names.
+65. Display each store with its city and country.
+66. Show all staff with their city and country.
+67. List all rentals with film category.
+68. Display films and all actors in those films.
+69. Show all films along with their replacement cost and category.
+70. Find all rentals where payment was done by staff ‘Mike’.
+71. Show films with no category assigned.
+72. List all categories with the count of films in each.
+73. Show all rentals with the store address.
+74. Display all films with rental info and payment amount.
+75. List customers who have never made a rental.
+76. Show all inventory items that have never been rented.
+77. Display the last rental of each customer.
+78. Show all customers and total payments they have made.
+79. List films with more than one category.
+80. Show films that have never been rented.
+
+---
+
+### **5. Aggregate Functions (20 Questions)**
+
+81. Count total number of films.
+82. Count total number of rentals.
+83. Count total payments made.
+84. Find the maximum rental rate.
+85. Find the minimum replacement cost.
+86. Calculate the average payment amount.
+87. Count number of active customers.
+88. Find the total number of cities per country.
+89. Count films per language.
+90. Find the number of films per rating.
+91. Count the number of rentals per customer.
+92. Calculate total revenue per customer.
+93. Show number of films per category.
+94. Calculate the total revenue of each store.
+95. Find the most expensive film per category.
+96. Show the minimum payment made by any customer.
+97. Count the number of films per actor.
+98. Find the total inventory per store.
+99. Calculate the sum of all payments in June 2005.
+100. Count the number of rentals made per staff member.
+
+---
+
+### **6. GROUP BY & HAVING (20 Questions)**
+
+101. Show the number of films in each category.
+102. Count customers per store.
+103. Count the number of films per replacement cost.
+104. Show the average rental rate per category.
+105. Display total payments per staff member.
+106. Count films per rating where count > 100.
+107. Show the number of rentals per customer where rentals > 5.
+108. List actors with more than 5 films.
+109. Display the number of customers per country.
+110. Show top 3 categories by film count.
+111. Count the number of rentals per day.
+112. Show total payments per day.
+113. Find the average payment per customer.
+114. Show the number of films per language with > 50 films.
+115. Display the sum of payments per customer having spent > 50.
+116. Show number of rentals per staff member where rentals > 50.
+117. Display total revenue per month.
+118. Count films per actor where count >= 10.
+119. Show categories with more than 20 films.
+120. Display number of rentals per inventory item.
+
+---
+
+### **7. Subqueries (20 Questions)**
+
+121. Find the most rented film.
+122. Find the customer who paid the most.
+123. List films that were never rented.
+124. Show all customers who never made a payment.
+125. Display films longer than the average film length.
+126. Show actors in the most rented film.
+127. Find customers who rented more than the average number of films.
+128. List all films more expensive than the average replacement cost.
+129. Display categories with fewer films than the average.
+130. Show staff who processed above average number of rentals.
+131. Find all films with rental rate higher than category average.
+132. Display customers who spent more than store 1’s average.
+133. List the latest rental per customer.
+134. Show top 3 films by rental count.
+135. Find the customer with the earliest rental.
+136. Show films whose replacement cost is the maximum.
+137. Display the city with the most customers.
+138. List all films that are in the same category as ‘Action’.
+139. Show payments higher than any payment in July.
+140. Display actors who acted in all films of a specific category.
+
+---
+
+### **8. Window Functions (20 Questions)**
+
+141. Rank customers by total payments.
+142. Rank films by rental count.
+143. Show cumulative payments by customer.
+144. Display top 3 customers per store by total payments.
+145. Show running total of payments per staff member.
+146. Rank films by rental rate within each category.
+147. Show total rentals per day with cumulative sum.
+148. Display customers with payment percent of total revenue.
+149. Show the latest rental per customer using ROW\_NUMBER().
+150. Display top 5 categories by revenue using RANK().
+
+---
+
+### **9. DML (INSERT, UPDATE, DELETE) (20 Questions)**
+
+151. Insert a new customer.
+152. Add a new film.
+153. Insert a new rental for customer 1.
+154. Add a new payment for rental 1.
+155. Update a customer email.
+156. Change rental rate of film 1 to 3.99.
+157. Delete a rental record.
+158. Delete a film that was never rented.
+159. Update all inactive customers to active.
+160. Insert a new category ‘Documentary’.
+161. Change store 1’s address.
+162. Add a new actor.
+163. Assign a film to multiple actors.
+164. Add a new inventory for film 2 in store 1.
+165. Delete a category with no films.
+166. Update payment status for rental 3.
+167. Increase all replacement costs by 10%.
+168. Remove customers with no rentals.
+169. Set all NULL return\_date to today’s date.
+170. Copy a film to create a sequel entry.
+
+---
+
+### **10. Complex Joins & Analysis (30 Questions)**
+
+171. Find the top 5 customers by number of rentals.
+172. List films that generated the most revenue.
+173. Show total revenue per country.
+174. Display which store rents the most films.
+175. Show the average rental duration per category.
+176. Find the actor with the most appearances.
+177. Display which city rents the most films.
+178. Show which staff generates the most revenue.
+179. Find customers who rented the same film twice.
+180. List top 3 films by revenue in each store.
+181. Display the most popular category by rentals.
+182. Show which month generated the most revenue.
+183. Find films with all special features.
+184. Show top 3 customers in each country by payments.
+185. Display which store has the least revenue.
+186. Find the least rented film.
+187. Show the average rental rate per language.
+188. Display all customers who rented from both stores.
+189. Find the film with the longest average rental duration.
+190. Show which staff processed the earliest rental each month.
+191. List top 5 most rented actors.
+192. Display the film that has the highest replacement cost per rental.
+193. Find the film category that generates the most revenue.
+194. Show the customer who rented the longest chain of rentals.
+195. Display the most rented inventory item.
+196. Find cities where revenue > 1000.
+197. Show stores that rented out all films at least once.
+198. Display months with no revenue.
+199. Show which film generates more revenue in store 1 vs store 2.
+200. Find the customer with the highest late returns.
+
+---
+
