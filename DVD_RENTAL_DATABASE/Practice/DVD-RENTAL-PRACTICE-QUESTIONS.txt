@@ -1,7 +1,5 @@
 
----
-
-### **1. Basic SELECT Queries (20 Questions)**
+## 1. Basic SELECT Queries 
 
 1. List all customers.
 2. Show first and last names of all actors.
@@ -26,7 +24,7 @@
 
 ---
 
-### **2. Filtering & WHERE Conditions (20 Questions)**
+## 2. Filtering & WHERE Conditions 
 
 21. Find customers from the city ‘London’.
 22. List films with rental rates between 2 and 5.
@@ -51,7 +49,7 @@
 
 ---
 
-### **3. Sorting & Limiting (10 Questions)**
+## 3. Sorting & Limiting 
 
 41. Show the top 10 most expensive films.
 42. List the 5 earliest rentals.
@@ -66,7 +64,7 @@
 
 ---
 
-### **4. Joins (30 Questions)**
+## 4. Joins 
 
 51. Show films and their language names.
 52. List customers with their city names.
@@ -101,7 +99,7 @@
 
 ---
 
-### **5. Aggregate Functions (20 Questions)**
+## 5. Aggregate Functions 
 
 81. Count total number of films.
 82. Count total number of rentals.
@@ -126,7 +124,7 @@
 
 ---
 
-### **6. GROUP BY & HAVING (20 Questions)**
+## 6. GROUP BY & HAVING 
 
 101. Show the number of films in each category.
 102. Count customers per store.
@@ -151,7 +149,7 @@
 
 ---
 
-### **7. Subqueries (20 Questions)**
+## 7. Subqueries 
 
 121. Find the most rented film.
 122. Find the customer who paid the most.
@@ -176,7 +174,7 @@
 
 ---
 
-### **8. Window Functions (20 Questions)**
+## 8. Window Functions 
 
 141. Rank customers by total payments.
 142. Rank films by rental count.
@@ -191,7 +189,7 @@
 
 ---
 
-### **9. DML (INSERT, UPDATE, DELETE) (20 Questions)**
+## 9. DML (INSERT, UPDATE, DELETE) 
 
 151. Insert a new customer.
 152. Add a new film.
@@ -216,7 +214,7 @@
 
 ---
 
-### **10. Complex Joins & Analysis (30 Questions)**
+## 10. Complex Joins & Analysis 
 
 171. Find the top 5 customers by number of rentals.
 172. List films that generated the most revenue.
