@@ -172,47 +172,6 @@
 139. Show payments higher than any payment in July.
 140. Display actors who acted in all films of a specific category.
 
----
-
-## 8. Window Functions 
-
-141. Rank customers by total payments.
-142. Rank films by rental count.
-143. Show cumulative payments by customer.
-144. Display top 3 customers per store by total payments.
-145. Show running total of payments per staff member.
-146. Rank films by rental rate within each category.
-147. Show total rentals per day with cumulative sum.
-148. Display customers with payment percent of total revenue.
-149. Show the latest rental per customer using ROW\_NUMBER().
-150. Display top 5 categories by revenue using RANK().
-
----
-
-## 9. DML (INSERT, UPDATE, DELETE) 
-
-151. Insert a new customer.
-152. Add a new film.
-153. Insert a new rental for customer 1.
-154. Add a new payment for rental 1.
-155. Update a customer email.
-156. Change rental rate of film 1 to 3.99.
-157. Delete a rental record.
-158. Delete a film that was never rented.
-159. Update all inactive customers to active.
-160. Insert a new category ‘Documentary’.
-161. Change store 1’s address.
-162. Add a new actor.
-163. Assign a film to multiple actors.
-164. Add a new inventory for film 2 in store 1.
-165. Delete a category with no films.
-166. Update payment status for rental 3.
-167. Increase all replacement costs by 10%.
-168. Remove customers with no rentals.
-169. Set all NULL return\_date to today’s date.
-170. Copy a film to create a sequel entry.
-
----
 
 ## 10. Complex Joins & Analysis 
 
