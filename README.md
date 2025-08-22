@@ -36,11 +36,17 @@ This repo is your **ultimate PostgreSQL cheatsheet**, carefully crafted to take 
 ## 📝 Sample Practice Questions
 
 ✔ **Basic SELECT Queries** → List all customers, find films longer than 100 mins, display rentals on a given date
+
 ✔ **Filtering** → Customers from London, films with rental rate between 2–5, NULL checks
+
 ✔ **Sorting & Limiting** → Top 10 expensive films, earliest rentals, most recent payments
+
 ✔ **Joins** → Films with categories, customers with city names, rentals with staff names
+
 ✔ **Aggregations** → Count films, calculate average payments, revenue per store
+
 ✔ **Subqueries** → Most rented film, top customers, films longer than average
+
 ✔ **Complex Joins** → Top 5 customers by rentals, total revenue per country, least rented film
 
 📌 More than **150+ solved examples** included using **dvdrental** database.
