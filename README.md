@@ -60,8 +60,8 @@ This repo is your **ultimate PostgreSQL cheatsheet**, carefully crafted to take 
    cd postgresql-cheatsheet
    ```
 2. Import the sample **dvdrental** database into PostgreSQL.
-3. Explore `cheatsheet.md` for theory + queries.
-4. Try solving practice questions (`questions.md`) in your own database.
+3. Explore `postgre_sql_cheatsheat.ipynb` for theory + queries.
+4. Try solving practice questions (`DVD-RENTAL-PRACTICE-QUESTIONS.txt`) in your own database.
 
 ## 🔗 Related Resources
 
